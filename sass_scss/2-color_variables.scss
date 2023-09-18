@@ -1,0 +1,17 @@
+/* Assigns colour #3D3D3D to p and body & #6D6D6D to the HTML tags body and h2.*/
+
+$dark-grey: #3D3D3D;
+$light-grey: #6D6D6D;
+
+body {
+    color: $dark-grey;
+    background-color: $light-grey;
+}
+
+p {
+    color: $dark-grey;
+}
+
+h2 {
+    background-color: $light-grey;
+}

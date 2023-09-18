@@ -1,0 +1,12 @@
+/*Assigns colour to body tag elements*/
+
+$dark-grey: #3D3D3D;
+$norm-red: #FF0000;
+
+body {
+    color: $dark-grey;
+
+    > .red {
+        color: $norm-red;
+    }
+}
